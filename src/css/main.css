@@ -15,6 +15,7 @@ body {
 }
 
 h2 {
+	margin-top: 10px;
 	color: cyan;
 	text-align: center;
 	font-size: 32px;
@@ -24,6 +25,7 @@ p {
 	color: darkred;
 	font-size: 12px;
 	font-family: "Times New Roman", Times, serif;
+	margin-left: 55px;
 }
 ol {
 	color: gold;
@@ -32,4 +34,7 @@ ol {
 ul {
 	color: limegreen;
 	font-family: "Courier New", Courier, monospace;
+}
+img {
+	float: right;
 }
