@@ -1,3 +1,15 @@
+/* 
+`background-color` - Takes in a colour or a hex code!
+`color` - Takes in a colour or hex code
+`text-align` - Center | Right | Left | Justified
+`font-size` - Just like a Google / Word doc
+`font-family` - Font name / type
+
+ --- Some important reminders --- 
+ * Think of this as a JSON file
+ * Semi-colons are REQUIRED
+*/
+
 body {
 	background-color: black;
 }
