@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+}
+
+h2 {
+	color: cyan;
+	text-align: center;
+	font-size: 32px;
+	font-family: cursive;
+}
+p {
+	color: darkred;
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+}
+ol {
+	color: gold;
+	font-family: fantasy;
+}
+ul {
+	color: limegreen;
+	font-family: "Courier New", Courier, monospace;
+}
