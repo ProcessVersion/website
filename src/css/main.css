@@ -1,40 +1,39 @@
-/* 
-`background-color` - Takes in a colour or a hex code!
-`color` - Takes in a colour or hex code
-`text-align` - Center | Right | Left | Justified
-`font-size` - Just like a Google / Word doc
-`font-family` - Font name / type
-
- --- Some important reminders --- 
- * Think of this as a JSON file
- * Semi-colons are REQUIRED
-*/
-
 body {
-	background-color: black;
+	background: url("../assets//img//nice\ picture.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	text-align: center;
+	color: white;
+	font-family: "Avenir", sans-serif;
+}
+h1 {
+	font-size: 75px;
+}
+h2 {
+	font-size: 40px;
 }
 
-h2 {
-	margin-top: 10px;
-	color: cyan;
-	text-align: center;
-	font-size: 32px;
-	font-family: cursive;
+.container-fluid {
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
-p {
-	color: darkred;
-	font-size: 12px;
-	font-family: "Times New Roman", Times, serif;
-	margin-left: 55px;
+
+.fa {
+	color: white;
+	margin: 10px 5px;
+	font-size: 3em !important;
 }
-ol {
-	color: gold;
-	font-family: fantasy;
-}
-ul {
-	color: limegreen;
-	font-family: "Courier New", Courier, monospace;
-}
-img {
-	float: right;
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
